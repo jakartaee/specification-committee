@@ -1,17 +1,17 @@
 <!-- Template for the root page of a specification release -->
 ---
-title: "Jakarta Wombat Spec 4.1.0"
+title: "Jakarta Wombat Spec 1.0"
 date: 2018-12-12T16:10:38-04:00
 summary: "Change to the Jakarta Wombat spec for feature X."
 ---
-Jakarta Servlet defines server-side handling for HTTP requests and responses.
+Jakarta Wombat defines server-side handling for HTTP requests and responses.
 
-* [Jakarta Wombat 4.1.0 Specification Document](./wombat_4.1.0.pdf) (PDF)
-* [Jakarta Servlet 4.1.0 Specification Document](./wombat_4.1.0.html) (HTML)
-* [Jakarta Servlet 4.1.0 Javadoc](./javadoc)
-* [Jakarta Servlet 4.1.0 TCK](http://downloads.eclipse.org/jakarta/wombat/3.0.1/servlet_tck_4.1.0.zip)
+* [Jakarta Wombat 1.0 Specification Document](./wombat_1.0.pdf) (PDF)
+* [Jakarta Wombat 1.0 Specification Document](./wombat_1.0.html) (HTML)
+* [Jakarta Wombat 1.0 Javadoc](./javadoc)
+* [Jakarta Wombat 1.0 TCK](http://downloads.eclipse.org/jakarta/wombat/1.0.0/wombat_tck_1.0.zip)
 * Maven coordinates
- * jakarta.servlet:servlet:jar:4.1.0
+ * jakarta.wombat:wombat-api:jar:1.0.0
 
 # Ballots
 
@@ -49,5 +49,5 @@ The Plan Review Specification Committee Ballot concluded successfully on 2019-09
 
 # Compatible Implementations
 
-* Apache Tomcat 5.7
-* Eclipse Jetty 9.1.1
+* Apache Marsupials 5.7
+* Eclipse Vombatidae 9.1.1
