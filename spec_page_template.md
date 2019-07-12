@@ -1,17 +1,17 @@
 <!-- Template for the root page of a specification release -->
 ---
 title: "Jakarta Wombat Spec 1.0"
-date: 2018-12-12T16:10:38-04:00
+date: 2018-12-12T16:10:38-04:00 (use "date +%FT%T%z")
 summary: "Change to the Jakarta Wombat spec for feature X."
 ---
 Jakarta Wombat defines server-side handling for HTTP requests and responses.
 
 * [Jakarta Wombat 1.0 Specification Document](./wombat_1.0.pdf) (PDF)
 * [Jakarta Wombat 1.0 Specification Document](./wombat_1.0.html) (HTML)
-* [Jakarta Wombat 1.0 Javadoc](./javadoc)
+* [Jakarta Wombat 1.0 Javadoc](./apidocs)
 * [Jakarta Wombat 1.0 TCK](http://downloads.eclipse.org/jakarta/wombat/1.0.0/wombat_tck_1.0.zip)
 * Maven coordinates
- * jakarta.wombat:wombat-api:jar:1.0.0
+  * [jakarta.wombat:jakarta.wombat-api:jar:1.0.0](https://search.maven.org/artifact/jakarta.wombat/jakarta.wombat-api/1.0.0/jar)
 
 # Ballots
 
