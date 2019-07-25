@@ -1,15 +1,15 @@
 <!-- Template for the root page of a specification release -->
 ---
 title: "Jakarta Wombat Spec 1.0"
-date: 2018-12-12T16:10:38-04:00 (use "date +%FT%T%z")
+date: YYYY-MM-DD
 summary: "Change to the Jakarta Wombat spec for feature X."
 ---
 Jakarta Wombat defines server-side handling for HTTP requests and responses.
 
-* [Jakarta Wombat 1.0 Specification Document](./wombat_1.0.pdf) (PDF)
-* [Jakarta Wombat 1.0 Specification Document](./wombat_1.0.html) (HTML)
+* [Jakarta Wombat 1.0 Specification Document](./wombat-spec_1.0.pdf) (PDF)
+* [Jakarta Wombat 1.0 Specification Document](./wombat-spec_1.0.html) (HTML)
 * [Jakarta Wombat 1.0 Javadoc](./apidocs)
-* [Jakarta Wombat 1.0 TCK](http://downloads.eclipse.org/jakarta/wombat/1.0.0/wombat_tck_1.0.zip)
+* [Jakarta Wombat 1.0 TCK](http://downloads.eclipse.org/jakarta/wombat/1.0.0/wombat-tck-1.0.0.zip)
 * Maven coordinates
   * [jakarta.wombat:jakarta.wombat-api:jar:1.0.0](https://search.maven.org/artifact/jakarta.wombat/jakarta.wombat-api/1.0.0/jar)
 
@@ -49,5 +49,5 @@ The Plan Review Specification Committee Ballot concluded successfully on 2019-09
 
 # Compatible Implementations
 
-* Apache Marsupials 5.7
-* Eclipse Vombatidae 9.1.1
+* [Apache Marsupials 5.7](https://apache.org/marsupials)
+* [Eclipse Vombatidae 9.1.1](https://github.com/eclipse-ee4j/vombatidae)
