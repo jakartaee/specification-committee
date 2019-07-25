@@ -18,11 +18,16 @@ The requirements for each are described in <<process.adoc#,Review Requirements/G
 The https://www.eclipse.org/projects/handbook/#release[standard release process] defined in the Eclipse Foundation Project Handbook is followed and augmented with a specification committee ballot. In short:
 
 * The project team creates a release record as described in https://www.eclipse.org/projects/handbook/#pmi-commands-release
-* The project team creates a PR request against the Jakarta EE Specification Committee specifications repository.
+* The project team creates two PRs request against the Jakarta EE Specification Committee specifications repository. The first
+PR provides everything requested in the PR template except the javadoc contents. The second PR would include the javadoc contents.
+These PRs are intended to provide the items that are required to validate the release, and provide the jakarta.ee website
+content for the specification. The github repository to create PRs against is https://github.com/jakartaee/specifications
 * The project team requests approval for the release from the PMC by sending an email to ee4j-pmc@eclipse.org.
 * The project team delivers an IP Log to the IP Team for their review as described in https://www.eclipse.org/projects/handbook/#pmi-commands-iplog
 * The project team contacts the EMO to initiate the review by sending an email to emo@eclipse.org.
-* The EMO initiates a specification committee ballot by sending an email on the public Jakarta EE Specification Committee (jakarta.ee-spec@eclipse.org) mailing list that describes the nature of the vote (creation/progress/release) and includes pointers to the PR request containing the proposed release content (e.g. release review document, specification document, and technical artifacts).
+* The EMO initiates a specification committee ballot by sending an email on the public Jakarta EE Specification Committee
+(jakarta.ee-spec@eclipse.org) mailing list that describes the nature of the vote (creation/progress/release) and includes
+pointers to the PR request containing the proposed release content (e.g. release review document, specification document, and technical artifacts).
 
 A specification committee member votes by responding to the ballot message on the public Jakarta EE Specification Committee mailing list, using the usual +1/0/-1 voting notation.
 
@@ -53,9 +58,7 @@ The entire process is halted when either the specification project engages in a 
 The current recommendation for structure of the specification project repository is to have one *-spec repository with an api and spec subdirectory for the API and specification content, and a second *-tck repository for the TCK content.
 
 == Distributing Specifications
-Each specification project has a location on the jakarta.ee website. The following issue has been created for this task:
-
-https://github.com/jakartaee/jakarta.ee/issues/302
+Each specification project has a location on the jakarta.ee website under https://jakarta.ee/specifications/.
 
 For each final specification:
 
@@ -74,8 +77,11 @@ The github release should have a link to the candidate EFTL licensed artifact.
 There is no need to produce a final EPL version?
 Question on issues with using mirrored links.
 4. Attached the EFTL TCK summary results for each implementation included with this release review.
-5. Content needed for the http://jakarta.ee site as defined in by the template produced from: https://github.com/jakartaee/jakarta.ee/issues/302 by creating a PR against the Jakarta EE Specification Committee project repository.
-Assume there is a spec committee repo directory that has the templates.
+5. Create two https://help.github.com/en/articles/about-pull-requests#draft-pull-requests[draft PRs] request against the
+https://github.com/jakartaee/specifications[Jakarta EE Specification Committee specifications] repository. The first PR
+provides everything requested in the PR template except the javadoc contents. The second PR would include the javadoc contents.
+These PRs are intended to provide the items that are required to validate the release, and provide the jakarta.ee website content
+for the specification. There is a PR template that guides what to include in the PR.
 
 After the release review has completed successfully, the final release needs to be promoted to maven central.
 The specification committee will promote the specification project to jakarta.ee by merging the associated PR into the Jakarta EE Specification Committee project repository.
