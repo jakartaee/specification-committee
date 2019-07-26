@@ -80,7 +80,7 @@ The test challenge process is not the place for implementations to initiate thei
 * Challenges that an excluded test should not have been excluded and SHOULD be re-added MUST be opened as a new enhancement request
 
 === Filing a Challenge
-Challenges MUST be filed via the specification project’s TCK issue tracker using the label `challenge` and include the following information:
+Challenges MUST be filed via the specification project’s issue tracker using the label `challenge` and include the following information:
 
 * The relevant specification version and section number(s)
 * The coordinates of the challenged test(s)
@@ -105,7 +105,7 @@ The associated `challenge` issue MUST be closed with an `accepted` label to indi
 ==== Rejected Challenges and Remedy
 When a `challenge` issue is rejected, it MUST be closed with a label of `invalid` to indicate it has been rejected.
 The appeal process for challenges rejected on technical terms is outlined in Escalation Appeal.
-If, however, an implementer feels the TCK challenge process was not followed, an appeal issue MUST be filed with the specification project’s TCK issue tracker using the label `challenge-appeal`.
+If, however, an implementer feels the TCK challenge process was not followed, an appeal issue MUST be filed with the specification project’s issue tracker using the label `challenge-appeal`.
 A project lead MUST escalate the issue with the Jakarta EE Specification Committee via email (jakarta.ee-spec@eclipse.org).
 The committee will evaluate the matter purely in terms of due process.
 If the appeal is accepted, the original TCK challenge issue will be reopened and a label of `appealed-challenge` added, along with a discussion of the appeal decision, and the `challenge-appeal` issue with be closed.
@@ -131,7 +131,7 @@ An approved certification request is a statement from the Specification Project 
 Logos only apply to platform and profile specifications, but a request to be listed as a compatible implementation can be made for any specification.
 
 === Filing a Certification Request
-Requests to be acknowledged as a certified implementation MUST be filed via the specification project’s TCK issue tracker using the label `certification` and include the following information:
+Requests to be acknowledged as a certified implementation MUST be filed via the specification project’s issue tracker using the label `certification` and include the following information:
 
 * Statement of Acceptance of the terms of the EFTL
 * Product Name, Version and download URL (if applicable)
