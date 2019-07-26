@@ -2,7 +2,7 @@
   // Add here
 - [ ] Specification Name, Version and download URL
   // Add here
-- [ ] TCK Version, digital SHA-256l fingerprint and download URL
+- [ ] TCK Version, digital SHA-256 fingerprint and download URL
   // Add here
 - [ ] Implementation runtime Version(s) tested
   // Add here
