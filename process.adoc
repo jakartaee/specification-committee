@@ -23,11 +23,13 @@ This is the TCK binary usable for self-certification when one desires to make a 
 *** Software requirements
 *** Installation and configuration
 *** How to run the tests
-*** Where to file challenges and bug reports
-*** A statement that the <<_ Certification of Compatibility>> process must be followed before a claim of compatibility can be made.
+*** Where to file challenges
 *** TCK specific rules not covered in this process guide
 ** Instructions describing how to run the compatible implementation(s) that are being used to validate the TCK
-** A top-level README.md document pointing to each of the preceding documents
+** A top-level README document pointing to each of the preceding documents
+* We recommend that the TCK documentation include
+** URLs for the issue trackers to file certification requests, bug reports, etc.
+** A statement that the <<Certification of Compatibility>> process must be followed before a claim of compatibility can be made.
 * TCK binaries MAY contain
 ** Test coverage document
 ** Test assertion document
