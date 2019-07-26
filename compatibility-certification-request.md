@@ -1,3 +1,5 @@
+- [ ] Organization Name ("Organization") URL (if applicable)
+  // Add here
 - [ ] Product Name, Version and download URL (if applicable)
   // Add here
 - [ ] Specification Name, Version and download URL
@@ -14,5 +16,5 @@
   // Add here
 - [ ] Summary of the information for the certification environment, operating system, cloud, ...
   // Add here
-- [ ] By checking this box I acknowledge that I accept the terms of the [EFTL](https://www.eclipse.org/legal/tck.php).
+- [ ] By checking this box I acknowledge that the Organization I represent accepts the terms of the [EFTL](https://www.eclipse.org/legal/tck.php).
 - [ ] By checking this box I attest that all TCK requirements have been met, including any compatibility rules.
