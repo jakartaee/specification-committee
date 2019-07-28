@@ -1,4 +1,4 @@
-- [ ] Organization Name ("Organization") URL (if applicable)\
+- [ ] Organization Name ("Organization") and, if applicable URL\
   // Add here
 - [ ] Product Name, Version and download URL (if applicable)\
   // Add here
