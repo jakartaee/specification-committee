@@ -125,7 +125,7 @@ If you wish to have your implementation listed on the official https://jakarta.e
 
 There are additional requirements that MUST be met by any organization wishing to use the Jakarta EE logo or https://jakarta.ee[jarkarta.ee] website for promotion.
 Any request for certification from an organization not meeting the requirements will be held until such time as the requirements are met.
-See the https://docs.google.com/document/d/10Q8IPpnbU5E1671bnRkMZsPkLU1aWfL6PkP4kzVPqLE/edit#heading=h.njmsb6fbebb3[Jakarta EE Trademark Guidelines] for more information on the complete steps to obtain Jakarta EE branding usage.
+See the https://jakarta.ee/legal/trademark_guidelines/[Jakarta EE Trademark Guidelines] for more information on the complete steps to obtain Jakarta EE branding usage.
 
 An approved certification request is a statement from the Specification Project you have met the intended TCK requirements and is just one of the requirements for logo usage.
 Logos only apply to platform and profile specifications, but a request to be listed as a compatible implementation can be made for any specification.
