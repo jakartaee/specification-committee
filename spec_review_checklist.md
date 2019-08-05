@@ -2,23 +2,23 @@
 
 1. Spec PR
   * PR uses [template](https://github.com/jakartaee/specifications/blob/master/pull_request_template.md)
-  * Directory of form \<spec>/x.y
-  * PDF of form \<spec>-spec-x.y.pdf
-  * HTML of form \<spec>-spec-x.y.html
-  * Index page \<spec>/x.y/_index.md following [template](https://github.com/jakartaee/specification-committee/blob/master/spec_page_template.md)
-  * Index page \<spec>/_index.md
+  * Directory of form {spec}/x.y
+  * PDF of form {spec}-spec-x.y.pdf
+  * HTML of form {spec}-spec-x.y.html
+  * Index page {spec}/x.y/_index.md following [template](https://github.com/jakartaee/specification-committee/blob/master/spec_page_template.md)
+  * Index page {spec}/_index.md
   * No other files
-  * Staging repository link of the form https://oss.sonatype.org/conte/repositories/staging/jakarta/\<spec>/jakarta-\<spec>-api/x.y.z/
+  * Staging repository link of the form https://oss.sonatype.org/conte/repositories/staging/jakarta/{spec}/jakarta-{spec}-api/x.y.z/
   * EFTL TCK link of the form http://download.eclipse.org/.../*.zip
-  * Compatibility certification link of the form https://github.com/eclipse-ee4j/\<project>/#\<issue>
+  * Compatibility certification link of the form https://github.com/eclipse-ee4j/{project}/#{issue}
   * Second PR for just apidocs
 
 2. _index.md
   * Link to spec pdf
   * Link to spec html
   * Link to apidocs
-  * Link to final TCK download zip file of the form https://download.eclipse.org/jakartaee/\<spec>/x.y/*\<spec>-tck-x.y.z.zip
-  * Link to API jar file of the form https://search.maven.org/artifact/jakarta.\<spec>/jakarta.\<spec>-api/x.y.z/jar
+  * Link to final TCK download zip file of the form https://download.eclipse.org/jakartaee/{spec}/x.y/*{spec}-tck-x.y.z.zip
+  * Link to API jar file of the form https://search.maven.org/artifact/jakarta.{spec}/jakarta.{spec}-api/x.y.z/jar
   * Name of and link to at least one Compatible Implementation
 
 3. javadocs
