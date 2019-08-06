@@ -3,8 +3,8 @@
 1. Spec PR
   * PR uses [template](https://github.com/jakartaee/specifications/blob/master/pull_request_template.md)
   * Directory of form {spec}/x.y
-  * PDF of form {spec}-spec-x.y.pdf
-  * HTML of form {spec}-spec-x.y.html
+  * PDF of form {spec}-spec-x.y.pdf ("-spec" preferred but not required)
+  * HTML of form {spec}-spec-x.y.html ("-spec" preferred but not required)
   * Index page {spec}/x.y/_index.md following [template](https://github.com/jakartaee/specification-committee/blob/master/spec_page_template.md)
   * Index page {spec}/_index.md following [template](https://github.com/jakartaee/specification-committee/blob/master/spec_index_template.md)
   * No other files
@@ -53,4 +53,4 @@
 9. TCK results summary
   * Page is hosted by Compatible Implementation project
   * Includes all information from certification request
-  * Summary includes tests passed, failed, errors
+  * Summary includes number of tests passed, failed, errors
