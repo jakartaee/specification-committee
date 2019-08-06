@@ -6,7 +6,7 @@
   * PDF of form {spec}-spec-x.y.pdf
   * HTML of form {spec}-spec-x.y.html
   * Index page {spec}/x.y/_index.md following [template](https://github.com/jakartaee/specification-committee/blob/master/spec_page_template.md)
-  * Index page {spec}/_index.md
+  * Index page {spec}/_index.md following [template](https://github.com/jakartaee/specification-committee/blob/master/spec_index_template.md)
   * No other files
   * Staging repository link of the form https://oss.sonatype.org/conte/repositories/staging/jakarta/{spec}/jakarta-{spec}-api/x.y.z/
   * EFTL TCK link of the form http://download.eclipse.org/.../*.zip
