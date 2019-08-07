@@ -49,6 +49,7 @@
 8. Compatibility certification request
   * Request follows [template](https://github.com/jakartaee/specification-committee/blob/master/compatibility-certification-request.md)
   * SHA-256 fingerprint matches staged TCK zip file
+  * Request issue has `certification` label.
 
 9. TCK results summary
   * Page is hosted by Compatible Implementation project
