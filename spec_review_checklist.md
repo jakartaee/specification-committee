@@ -22,7 +22,7 @@
   * Name of and link to at least one Compatible Implementation
 
 3. javadocs
-  * Footer contains Eclipse copyright and link to license
+  * Footer contains appropriate copyright and link to EFSL license.  This copyright will often be an Eclipse Foundation copyright, even for APIs originally copyrighted by Oracle, but there will be exceptions, and javadoc with other copyright owners.
   * ESFL license is included, usually as doc-files/speclicense.html
 
 4. Spec PDF
