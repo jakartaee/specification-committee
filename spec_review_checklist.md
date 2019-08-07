@@ -24,6 +24,7 @@
 3. javadocs
   * Footer contains Eclipse copyright and link to license
   * ESFL license is included, usually as doc-files/speclicense.html
+  * no META-INF directory in PR
 
 4. Spec PDF
   * Correct spec title
