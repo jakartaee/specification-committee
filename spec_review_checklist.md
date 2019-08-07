@@ -35,12 +35,12 @@
   * Same as PDF
 
 6. TCK zip file
-  * README file
-  * EFTL license file
-  * User's Guide
+  * README file (optional for this release)
+  * EFTL license file, preferably named LICENSE.md
+  * User's Guide (or equivalent documentation)
   * How to test the Compatible Implementation(s) listed in _index.md above with the TCK (may be in UG)
 
-7. TCK User's Guide
+7. TCK User's Guide (or equivalent documentation)
   * Software requirements listed
   * Installation and configuration described
   * How to run tests
