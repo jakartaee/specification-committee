@@ -158,14 +158,19 @@ Specification projects need issue templates and labels to support the TCK challe
 Creating an issue template is described in this GitHub doc: https://help.github.com/en/articles/creating-issue-templates-for-your-repository.
 Creating labels is described in this GitHub doc: https://help.github.com/en/articles/creating-a-label.
 
-The current TCK challenge and compatibility request process requires the following issue labels:
+The current TCK challenge and compatibility request process requires the following issue labels, which should be defined in the issue tracker:
 
-* challenge
-* accepted
-* challenge-appeal
-* appealed-challenge
-* invalid
-* enhancement
-* certification
+[options="header"]
+|===
+| Label | Description
+| challenge | TCK challenge
+| accepted | Accepted certification request
+| challenge-appeal | Appeal a rejected TCK challenge
+| appealed-challenge | TCK challenge was appealed
+| certification | Compatibility certification request
+| invalid | This doesn't seem right (label already exists)
+| enhancement | New feature or request (label already exists)
+|===
+
 
 Finally, follow https://wiki.eclipse.org/How_to_Prepare_API_Projects_to_Jakarta_EE_8_Release[How to Prepare API Projects to Jakarta EE 8 Release] to create an initial Jakarta EE 8 release.
