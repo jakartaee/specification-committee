@@ -32,6 +32,7 @@
   - [ ] Version number of the form x.y, not x.y.z
   - [ ] Correct Eclipse copyright line
   - [ ] No DRAFT or SNAPSHOT
+  - [ ] Correct Logo
 
 5. Spec HTML
   - [ ] Same as PDF
