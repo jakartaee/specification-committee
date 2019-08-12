@@ -25,6 +25,7 @@
   - [ ] Footer contains Eclipse copyright and link to license
   - [ ] ESFL license is included, usually as doc-files/speclicense.html
   - [ ] no META-INF directory in PR
+  - [ ] javadocs-jar artifact matches apidocs (optional for this release)
 
 4. Spec PDF
   - [ ] Correct spec title
