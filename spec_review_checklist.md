@@ -58,3 +58,4 @@
   - [ ] Page is hosted by Compatible Implementation project
   - [ ] Includes all information from certification request
   - [ ] Summary includes number of tests passed, failed, errors
+  - [ ] SHA-256 fingerprint matches staged TCK zip file on cert request
