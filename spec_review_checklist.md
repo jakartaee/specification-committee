@@ -59,3 +59,6 @@
   - [ ] Includes all information from certification request
   - [ ] Summary includes number of tests passed, failed, errors
   - [ ] SHA-256 fingerprint matches staged TCK zip file on cert request
+ 
+10. Update Jakarta EE API jar
+  - [ ] Update the Jakarta EE API jar by submitting a PR to the jakartaee-api project that updates the version number of your API jar file.
