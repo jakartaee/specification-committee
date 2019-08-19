@@ -153,7 +153,7 @@
 |{projectBaseURL}/ee4j.jstl[ee4j.jstl]
 |Jakarta Standard Tag Library
 |{gitBaseURL}/jstl-api[Jakarta Standard Tag Library]
-|jstl
+|tags
 
 |{projectBaseURL}/ee4j.jta[ee4j.jta]
 |Jakarta Transactions
