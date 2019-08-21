@@ -4,9 +4,13 @@ PR provides everything requested in the PR template except the javadoc contents.
 These PRs are intended to provide the items that are required to validate the release, and provide the jakarta.ee website
 content for the specification. The github repository to create PRs against is https://github.com/jakartaee/specifications
 * The specification committee marks the PR as final when it is ready for voting.
-* The project team requests approval for the release from the PMC by sending an email to ee4j-pmc@eclipse.org.
-* The project team delivers an IP Log to the IP Team for their review as described in https://www.eclipse.org/projects/handbook/#pmi-commands-iplog
-* The project team contacts the EMO to initiate the review by sending an email to emo@eclipse.org.
+* Create a release record as described in https://www.eclipse.org/projects/handbook/#pmi-commands-release
+* If a Release Review is required, the project team contacts the EMO to initiate the review by sending an email to emo@eclipse.org.
+(A Release Review is not required if the current release is a Service Release based on a previously successful Major or Minor
+release as indicated by a release record on the project's Releases page, e.g., the [Jakarta Servlet releases page](https://projects.eclipse.org/projects/ee4j.servlet/reviews). A Release Review will not be required for most of the Jakarta EE projects.)
+  * An issue will be created by the EMO to track the release review
+  * The project team requests approval for the release from the PMC by sending an email to ee4j-pmc@eclipse.org.
+  * The project tream then delivers an IP Log to the IP Team for their review as described in https://www.eclipse.org/projects/handbook/#pmi-commands-iplog.
 * The EMO initiates a specification committee ballot by sending an email on the public Jakarta EE Specification Committee
 (jakarta.ee-spec@eclipse.org) mailing list that describes the nature of the vote (creation/progress/release) and includes
 pointers to the PR request containing the proposed release content (e.g. release review document, specification document, and technical artifacts).
@@ -14,5 +18,8 @@ pointers to the PR request containing the proposed release content (e.g. release
 * On ballot completion
   * the specification PRs are merged by a specification committee representative.
   * the specification staged EFTL TCK is signature is calculated and promoted to the committee download area
-  using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job.
+  using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job by a spec committee member.
   * The staged specification api jars are released to maven central by the specification project member who created the staging release.
+  * The EMO updates the specification page with the ballot results.
+this list goes on the spec PR.
+  * The project team should go through the spec merged website page to verify all the links are valid.
