@@ -16,10 +16,11 @@ release as indicated by a release record on the project's Releases page, e.g., t
 pointers to the PR request containing the proposed release content (e.g. release review document, specification document, and technical artifacts).
   * A specification committee member votes by responding to the ballot message on the public Jakarta EE Specification Committee mailing list, using the usual +1/0/-1 voting notation.
 * On ballot completion
-  * the specification PRs are merged by a specification committee representative.
-  * the specification staged EFTL TCK is signature is calculated and promoted to the committee download area
-  using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job by a spec committee member.
-  * The staged specification api jars are released to maven central by the specification project member who created the staging release.
+  * the designated specification committee representative adds this final checklist to the main PR.
+  * the specification committee representative merges the specification PRs.
+  * the designated specification committee representative calculates the staged EFTL TCK is signature and promotes it to the committee download area
+  using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job.
+  * The specification project member who created the staging release promotes the specification api jars to maven central.
   * The EMO updates the specification page with the ballot results.
 this list goes on the committed spec index page.
   * The project team should go through the spec merged website page to verify all the links are valid.
