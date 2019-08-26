@@ -21,5 +21,5 @@ pointers to the PR request containing the proposed release content (e.g. release
   using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job by a spec committee member.
   * The staged specification api jars are released to maven central by the specification project member who created the staging release.
   * The EMO updates the specification page with the ballot results.
-this list goes on the spec PR.
+this list goes on the committed spec index page.
   * The project team should go through the spec merged website page to verify all the links are valid.
