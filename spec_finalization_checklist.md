@@ -24,3 +24,4 @@ pointers to the PR request containing the proposed release content (e.g. release
   * The EMO updates the specification page with the ballot results.
 this list goes on the committed spec index page.
   * The project team should go through the spec merged website page to verify all the links are valid.
+* Post ballot completion, EMO asks webmaster to push changes to jakarta.ee
