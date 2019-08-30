@@ -20,7 +20,7 @@ pointers to the PR request containing the proposed release content (e.g. release
  - [ ] The specification committee representative merges the specification PRs.
  - [ ] The designated specification committee representative calculates the staged EFTL TCK signature and promotes it to the committee download area
   using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job.
- - [ ] The specification project member who created the staging release promotes the specification api jars to maven central.
+ - [ ] The specification project member who created the staging release promotes the specification api jars to maven central. An example release job script can be found here https://wiki.eclipse.org/MavenReleaseScript.
  - [ ] The EMO updates the specification page with the ballot results.
 This list goes on the committed spec index page.
  - [ ] The specification project team should go through the merged spec website page to verify all the links are valid.
