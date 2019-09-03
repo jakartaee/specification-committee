@@ -24,6 +24,7 @@ pointers to the PR request containing the proposed release content (e.g. release
  - [ ] The EMO updates the specification page with the ballot results.
 This list goes on the committed spec index page.
  - [ ] The specification project team should go through the merged spec website page to verify all the links are valid.
- - [ ] The specification project team should approve the compatibility request and send an email to tck@eclipse.org for approval of the compatible implementation for trademark usage.
+ - [ ] The specification project team should approve the compatibility request.
+ - [ ] The compatible implementation project/vendor MUST send an email tck@eclipse.org for approval of the compatible implementation for trademark usage.
  - [ ] The specification project team should merge any final release branch as approriate for the branch management for the project.
 * Post ballot completion, EMO asks webmaster to push changes to jakarta.ee
