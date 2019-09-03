@@ -26,5 +26,5 @@ This list goes on the committed spec index page.
  - [ ] The specification project team should go through the merged spec website page to verify all the links are valid.
  - [ ] The specification project team should approve the compatibility request.
  - [ ] The compatible implementation project/vendor MUST send an email tck@eclipse.org for approval of the compatible implementation for trademark usage.
- - [ ] The specification project team should merge any final release branch as approriate for the branch management for the project.
+ - [ ] The specification project team should merge any final release branch as appropriate for the branch management for the project.
 * Post ballot completion, EMO asks webmaster to push changes to jakarta.ee
