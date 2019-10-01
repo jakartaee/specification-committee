@@ -196,8 +196,8 @@ This means that if there is a (-1) vote, lazy consensus is no longer an option a
 
 ==== Accepted Certification Requests
 Certification requests that are reviewed and found to meet the requirements will be marked accepted by closing an issue with an `accepted` label.
-This is a requirement for being able to request use of the associated Jakarta EE logo.
-A pointer/link to the issue MUST then be emailed to tck@eclipse.org to request approval to use the Jakarta EE logo.
+A pointer/link to the issue MUST then be emailed to [tck@eclipse.org](mailto:tck@eclipse.org), as required by the [Eclipse Foundation Technology Compatibility Kit License](https://www.eclipse.org/legal/tck.php).
+If use of the Jakarta EE logo or trademark is being requested (currently only applicable to platform or profile products), see the [Jakarta EE Trademark Guidelines](https://jakarta.ee/legal/trademark_guidelines/).
 
 ==== Rejected Certification Requests
 
