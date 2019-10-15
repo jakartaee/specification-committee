@@ -1,0 +1,74 @@
+= 
+
+These are the steps we are currently aware of that are needed to transform the Java EE specification documents to Jakarta EE specification documents. There may be added additional steps as we go to fulfill the requirements from the Specification Committee to approve the documents.
+
+== Preparation Steps
+
+* Download the document from the associated BugZilla issue
+* Unzip
+* Create a branch in your fork of the spec repository (e.g. ‘initial-spec-doc-contribution’)
+* Copy the contents of the zip into the existing structure of the spec project (may require some folders to change name, e.g. src/main/doc -> src/main/asciidoc)
+* Commit and Push the branch
+* Create a PR
+
+If the project intends to Jakartify the specification right away, the work may be done with PRs to the master branch as this is most likely more convenient.
+
+If, on the other hand, the project decide to do this later, DO NOT put the Java EE version of the document on the master branch. This will only cause confusion...
+
+== Cleanup Steps
+
+* The main thing is changing “Java EE” to “Jakarta EE”.
+* Modifying references to the JCP with corresponding Eclipse processes.
+* What do we do with references to JSRs? [EJB] Use spec. Name and version number of the specification instead.
+* References to existing Java EE technologies, acronyms, and JSRs are okay as long as they are properly attributed.
+* Be careful not to modify the semantics or behavior -- we need Jakarta EE 8 to be functionally equivalent to Java EE 8.
+
+== Helpful Hints
+
+* Use the original Java EE specification as a guide for your expected end result.  Look at the TOC, the figures, the tables, the indentations, etc.  The Jakarta EE specification should look very similar to the Java EE counterpart.
+* Continue to use the general template and format that the skeletal specifications are using.  For example, use a top-level asciidoc file that defines the overall configuration parameters and includes the other sections of the specification document.
+The front page, table of contents, and license should all be very similar to the skeletal specifications that were approved for Jakarta EE 8.
+For most skeletal specifications, the “scope.adoc” file should be replaced with the newly contributed asciidoc version of the specification.
+Consider breaking down this specification asciidoc file into individual chapter sections if it’s large and you expect multiple people to contribute to this effort.  The Platform and Web Profile Specifications are examples of this content break down.  Look at Platform.adoc and/or WebProfile.adoc.
+Remove Oracle Copyright statements.  They should be replaced with “Copyright © 2019 Eclipse Foundation” (per the skeletal specification).
+All internal document linkrefs need to be re-worked.
+Original:  link:WebProfile.html#a43[See Required Components].”
+Updated:  <<a43, Required Components>>.
+Suggest using regedit replacement macros if you have many to change.  If just a few, then manual edits are fine.
+The links need to be on a separate line from the headings.
+Original:  == [[a2845]]Interoperability
+Updated:  [[a2845]]
+                 == Interoperability
+Again, using regedit replacement macros makes this type of change easier if you have many to change.
+Use “https://” instead of “http://” for any external links.
+Ensure that external specification links are now pointing at the respective Jakarta EE Specification page (and not the Java EE specifications).
+&trade; does not work for ™ ; use “(tm)”. See more about textual symbol replacements.
+Sub sections of document beyond three indentation levels (1.2.3) didn’t format very nicely.  You may need to visually ensure that the proper indentation levels match up with the original specification expectations.
+Limit the TOC to three levels (:toclevels: 3)
+Inserting images has a different syntax:
+Original:  Jakarta EE Application Life Cycle
+                image:Platform_Spec-10.png[image]
+Updated:  .Jakarta EE Application Life Cycle  (note the leading period)
+                 image::Platform_Spec-10.png[]
+Tables didn’t migrate well at all…  When you find a table, start off with this type of header and then insert the data on each new line.  Here’s an example…
+
+[[a3318]]
+[cols=3, options=header]
+.Deployment Descriptor Processing Requirements
+|===
+|Deployment descriptor
+|metadata-complete?
+|process annotations?
+
+|application-client_1_2
+|N/A
+|No
+|===
+
+[appendix] is a handy element if your specification had them in the past
+Footnotes were kind of ugly.  Getting footnotes to render in a similar manner for both pdf and html generation was tricky.  I ended up using the following syntax:
+footnote:[text of footnote]  -- get text from the [.footnoteNumber] items
+Remove all of the “[.footnoteNumber]...” items from the migrated document.  They are no longer needed.
+Add a dividing line at the bottom of each page where footnotes will reside via three single backward quotes (```).  Reference this PR for an example.
+Formatting code blocks needs work as well.  Surround code block in ---- (4 dashes).  Add [source, java] or [source, xml] as needed.  More specific detailed help can be found in this PR.
+The Asciidoctor Editor plug-in provides a solid set of tools for authoring Asciidoc files in the Eclipse IDE; versions of this plug-in exist for other IDEs as well.
