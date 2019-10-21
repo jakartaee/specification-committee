@@ -4,7 +4,10 @@ These are the steps we are currently aware of that are needed to transform the J
 
 == Preparation Steps
 
-* Download the document from the associated BugZilla issue
+* Download the AsciiDoc (.adoc) document from the associated BugZilla CQ issue
+** The LaTeX (.tex) documents are the original docs that Oracle used to generate the Java EE(TM) specifications.
+These will not be maintained going forward.
+Do not store these .tex documents in your Specification project.
 * Unzip
 * Create a branch in your fork of the spec repository (e.g. ‘initial-spec-doc-contribution’)
 * Copy the contents of the zip into the existing structure of the spec project (may require some folders to change name, e.g. src/main/doc -> src/main/asciidoc)
@@ -34,7 +37,7 @@ If, on the other hand, the project decide to do this later, DO NOT put the Java 
 * All internal document linkrefs need to be re-worked.
 ** Original:
 +
-``` 
+```
 link:WebProfile.html#a43[See Required Components].
 ```
 +
@@ -45,12 +48,12 @@ link:WebProfile.html#a43[See Required Components].
 ```
 ** Suggest using regedit replacement macros if you have many to change.  If just a few, then manual edits are fine.
 * The links need to be on a separate line from the headings.
-** Original: 
+** Original:
 +
 ```
 == [[a2845]]Interoperability
 ```
-+ 
++
 ** Updated:
 +
 ```
@@ -97,6 +100,6 @@ Jakarta EE Application Life Cycle
 ** `\footnote:[text of footnote]`  -- get text from the [.footnoteNumber] items
 ** Remove all of the “[.footnoteNumber]...” items from the migrated document.  They are no longer needed.
 ** Add a dividing line at the bottom of each page where footnotes will reside via three single backward quotes (```).  Reference link:https://github.com/eclipse-ee4j/jakartaee-platform/pull/89/files[this PR] for an example.
-* Formatting code blocks needs work as well.  Surround code block in ---- (4 dashes). + 
+* Formatting code blocks needs work as well.  Surround code block in ---- (4 dashes). +
 Add [source, java] or [source, xml] as needed.  More specific detailed help can be found in link:https://github.com/eclipse-ee4j/jakartaee-platform/pull/88[this PR].
 * The link:https://marketplace.eclipse.org/content/asciidoctor-editor[Asciidoctor Editor] plug-in provides a solid set of tools for authoring Asciidoc files in the Eclipse IDE; versions of this plug-in exist for other IDEs as well.
