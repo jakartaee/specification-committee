@@ -6,6 +6,30 @@ Changes to this document must be approved by a simple majority vote of the Jakar
 
 This is a public document.
 
+== Specification Committee
+
+The Jakarta EE Specification Committee is responsible for implementing the Eclipse Foundation Specification Process (EFSP) for all Specification Projects (as that term is defined by the EFSP) under the purview of the Jakarta EE Working Group. This includes the adaptation of the EFSP for Jakarta which is referred to as the Jakarta EE Specification Process (JESP). 
+
+The Specification Committee is ultimately responsible for ensuring that the Final Specifications produced by the Working Group’s Specification Projects make sense. The definition of “makes sense” varies by Specification Committee Participant, but is generally understood to mean that the Specification can be implemented and that those aspects of the Eclipse Intellectual Property Policy with regard to Essential Claims are observed. In practical terms, Specification Committee Participants wields power via the ballots that are required to approve key lifecycle events per the EFSP. 
+
+The Specification Committee is responsible for producing, publishing and maintaining operational guidance documentation for specification projects. This includes the minimum requirements and process for producing a Final Specification. It also includes operational guidance for running a specifications TCK for the purpose of testing for compatibility.
+
+The Specification Chair (or their delegate) is responsible for initiating ballots, tallying their results, disseminating them to the community, and (when appropriate; e.g., in the case a release review ballot) reporting them to the EMO.
+
+The Specification Committee is also responsible for defining and refining how they implement the EFSP/JESP for those Specification Projects under their purview.
+ 
+== Project Management Committee (PMC)
+
+The primary role of the PMC is to ensure that project teams are implementing the Eclipse Development Process. In particular, the PMC monitors project activity to ensure that project teams are operating in an open and transparent manner. The PMC reviews and approves (or vetos) committer elections, first validating that candidate committers have demonstrated sufficient merit. 
+
+The PMC is further responsible for ensuring that project teams abiding by the Eclipse IP Policy and implementing the IP Due Diligence process. In practical terms, the PMC approves intellectual property contributions (CQs) and provides (limited) guidance to project teams regarding intellectual property (deferring to the Eclipse IP Team as necessary).
+
+The PMC is responsible for the structure of the Top Level Project and the organization of the open source (software and Specification) projects contained within.
+
+The PMC is a link in the project leadership chain. As such, the PMC has a role in the grievance handling process: they identify and document project dysfunction (with the responsibility to remove/replace/add disruptive committers).
+
+The PMC provides other oversight regarding the operation of open source projects. They review and approve release and progress review materials, and facilitate cross-project communication within the Top-Level Project.
+
 
 == Project Lead(s) Designation
 A specification project must designate one or more committers to serve as the project lead.
