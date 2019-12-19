@@ -4,7 +4,9 @@ These are the steps we are currently aware of that are needed to transform the J
 
 == Preparation Steps
 
-* Download the AsciiDoc (.adoc) document from the associated BugZilla CQ issue
+If your project's document has been cleared and delivered, then you will be able to download a ZIP file containing the content from a record (https://www.eclipse.org/projects/handbook/#ip-cq[CQ]) in your project's IPzilla component. Any project committer can access and query IPzilla for the document. Locate your project's specification document(s) https://dev.eclipse.org/ipzilla/buglist.cgi?https://dev.eclipse.org/ipzilla/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=specification+document&product=ee4j[here]. Note that the CQ *must* be marked `checkin` by the EMO IP Team before you can push the document into a project repository. Further, the CQ *must* be marked `approved` before the document may be included in any release (or service release).
+
+* Download the AsciiDoc (.adoc) document from the associated Ipzilla CQ issue
 ** The LaTeX (.tex) documents are the original docs that Oracle used to generate the Java EE(TM) specifications.
 These will not be maintained going forward.
 Do not store these .tex documents in your Specification project.
