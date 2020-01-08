@@ -210,4 +210,4 @@ Note that this is not a mechanism to attempt to handle implementation specific i
 
 === How Tests May be Added to a TCK
 The only time tests may be added to a TCK are in a major or minor release.
-A service release which updates the exclude list MUST not have test additions or changes to tests that affect behavior.
+A service release which updates the exclude list MUST not have test additions or changes.
