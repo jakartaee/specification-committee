@@ -195,15 +195,15 @@ Subsequent references may use a generally accepted abbreviation.
 The requirements for the initial migration from the legacy Java EE projects and associated naming conventions to the Jakarta conventions is outlined in these documents:
 
 * https://jakarta.ee/legal/acronym_guidelines/[Oracle/JCP Acronym Guidelines]
-* <<names.adoc,Project Names and Codes>>
+* <<names.adoc#,Project Names and Codes>>
 
 Using these conventions, projects need to:
 
-* Change the specification name to that given in <<names.adoc,Project Names and Codes>>
+* Change the specification name to that given in <<names.adoc#,Project Names and Codes>>
 * JavaDocs and text documents such as README files need to be updated to use these naming conventions.
 * Replace references to JCP process with references to https://jakarta.ee/about/jesp/[Eclipse JESP]
-* Update references to other specifications to use name in <<names.adoc,Project Names and Codes>>
-* Links to JCP JSR pages need to be replaced with a links of the form jakarta.ee/specifications/<code>/<version> where <code> is the specification code from <<names.adoc,Project Names and Codes>>, and <version> is the particular specification version.
+* Update references to other specifications to use name in <<names.adoc#,Project Names and Codes>>
+* Links to JCP JSR pages need to be replaced with a links of the form jakarta.ee/specifications/<code>/<version> where <code> is the specification code from <<names.adoc#,Project Names and Codes>>, and <version> is the particular specification version.
 * Leave existing "@since XYZ 1.x" uses alone. These refer to the old JCP version. Future additions should use the Jakarta project name.
 
 
