@@ -8,19 +8,19 @@ This is a public document.
 
 == Specification Committee
 
-The Jakarta EE Specification Committee is responsible for implementing the Eclipse Foundation Specification Process (EFSP) for all Specification Projects (as that term is defined by the EFSP) under the purview of the Jakarta EE Working Group. This includes the adaptation of the EFSP for Jakarta which is referred to as the Jakarta EE Specification Process (JESP). 
+The Jakarta EE Specification Committee is responsible for implementing the Eclipse Foundation Specification Process (EFSP) for all Specification Projects (as that term is defined by the EFSP) under the purview of the Jakarta EE Working Group. This includes the adaptation of the EFSP for Jakarta which is referred to as the Jakarta EE Specification Process (JESP).
 
-The Specification Committee is ultimately responsible for ensuring that the Final Specifications produced by the Working Group’s Specification Projects make sense. The definition of “makes sense” varies by Specification Committee Participant, but is generally understood to mean that the Specification can be implemented and that those aspects of the Eclipse Intellectual Property Policy with regard to Essential Claims are observed. In practical terms, Specification Committee Participants wields power via the ballots that are required to approve key lifecycle events per the EFSP. 
+The Specification Committee is ultimately responsible for ensuring that the Final Specifications produced by the Working Group’s Specification Projects make sense. The definition of “makes sense” varies by Specification Committee Participant, but is generally understood to mean that the Specification can be implemented and that those aspects of the Eclipse Intellectual Property Policy with regard to Essential Claims are observed. In practical terms, Specification Committee Participants wields power via the ballots that are required to approve key lifecycle events per the EFSP.
 
 The Specification Committee is responsible for producing, publishing and maintaining operational guidance documentation for specification projects. This includes the minimum requirements and process for producing a Final Specification. It also includes operational guidance for running a specifications TCK for the purpose of testing for compatibility.
 
 The Specification Chair (or their delegate) is responsible for initiating ballots, tallying their results, disseminating them to the community, and (when appropriate; e.g., in the case a release review ballot) reporting them to the EMO.
 
 The Specification Committee is also responsible for defining and refining how they implement the EFSP/JESP for those Specification Projects under their purview.
- 
+
 == Project Management Committee (PMC)
 
-The primary role of the PMC is to ensure that project teams are implementing the Eclipse Development Process. In particular, the PMC monitors project activity to ensure that project teams are operating in an open and transparent manner. The PMC reviews and approves (or vetos) committer elections, first validating that candidate committers have demonstrated sufficient merit. 
+The primary role of the PMC is to ensure that project teams are implementing the Eclipse Development Process. In particular, the PMC monitors project activity to ensure that project teams are operating in an open and transparent manner. The PMC reviews and approves (or vetos) committer elections, first validating that candidate committers have demonstrated sufficient merit.
 
 The PMC is further responsible for ensuring that project teams abiding by the Eclipse IP Policy and implementing the IP Due Diligence process. In practical terms, the PMC approves intellectual property contributions (CQs) and provides (limited) guidance to project teams regarding intellectual property (deferring to the Eclipse IP Team as necessary).
 
@@ -38,19 +38,15 @@ The lead is responsible for initiating reviews as the project reaches the approp
 == Specification Committee Votes
 Specification committee approval votes connected to progress and release reviews run for a minimum of 14 days; other votes run for a minimum of 7 days.
 
-The requirements for each are described in <<process.adoc#,Review Requirements/Guidelines>>
+The requirements for each are described in <<Review Requirements/Guidelines>>.
 
-The https://www.eclipse.org/projects/handbook/#release[standard release process] defined in the Eclipse Foundation Project Handbook is followed and augmented with a specification committee ballot. In short:
+The https://www.eclipse.org/projects/handbook/#release[standard release process] defined in the Eclipse Foundation Project Handbook is followed and augmented with a specification committee ballot.
+Additional detail for the various reviews can be found in these sections:
 
-* The project team creates a release record as described in https://www.eclipse.org/projects/handbook/#pmi-commands-release
-* The project team creates two PRs request against the Jakarta EE Specification Committee specifications repository. The first
-PR provides everything requested in the PR template except the javadoc contents. The second PR would include the javadoc contents.
-These PRs are intended to provide the items that are required to validate the release, and provide the jakarta.ee website
-content for the specification. The github repository to create PRs against is https://github.com/jakartaee/specifications
-* The project team requests approval for the release from the PMC by sending an email to ee4j-pmc@eclipse.org.
-* The project team delivers an IP Log to the IP Team for their review as described in https://www.eclipse.org/projects/handbook/#pmi-commands-iplog
-* The project team contacts the EMO to initiate the review by sending an email to emo@eclipse.org.
-* The EMO initiates a specification committee ballot by sending an email on the public Jakarta EE Specification Committee
+* <<Creating a Release Plan>>
+* <<Creating a Final Specification>>
+
+The EMO initiates a specification committee ballot by sending an email on the public Jakarta EE Specification Committee
 (jakarta.ee-spec@eclipse.org) mailing list that describes the nature of the vote (creation/progress/release) and includes
 pointers to the PR request containing the proposed release content (e.g. release review document, specification document, and technical artifacts).
 
@@ -79,11 +75,23 @@ In practical terms, this means that the clock starts ticking when the plan revie
 
 The entire process is halted when either the specification project engages in a successful release review (thereby concluding the development cycle), or the specification team decides to abandon the cycle.
 
+== Creating a Release Plan
+Each specification project needs to engage in a Plan Review prior to any extensive development effort in support of a new Specification Version.
+A simple Release Plan may be defined via an https://www.eclipse.org/projects/handbook/#pmi-commands-release[Eclipse release record].
+A more extensive Release Plan may be easier to define via an external document.
+If an external document is created, it should be referenced in the Eclipse release record.
+That is, an Eclipse release record is required regardless of where the detail for the release is documented.
+
+If an external Release Plan is developed, it needs to be made available via the Specification Project's web pages.
+As an example, the Jakarta EE 9 Release Plan is housed on the https://eclipse-ee4j.github.io/jakartaee-platform/jakartaee9/JakartaEE9ReleasePlan[Platform Project's github pages].
+
+The Release Plan should be reviewed with the Specification Committee before continuing with the ballot stage.
+
 == Recommended Specification Project Repository Structure
 The current recommendation for structure of the specification project repository is to have one *-spec repository with an api and spec subdirectory for the API and specification content, and a second *-tck repository for the TCK content.
 
 == Distributing Specifications
-Each specification project has a location on the jakarta.ee website under https://jakarta.ee/specifications/.
+Each specification project has a location on the jakarta.ee website under https://jakarta.ee/specifications/[Specifications].
 
 For each final specification:
 
@@ -100,7 +108,7 @@ A release review will have validated that the specification project has:
 ** Version in pom.xml should be increased by comparing to the previously released API artifact.
 ** Existing "@version &#8230;&#8203;" JavaDoc tags should be updated to match, or removed.
 1. The candidate final https://www.eclipse.org/legal/tck.php[EFTL] licensed TCK archive should be uploaded to the project directory under http://download.eclipse.org/ee4j, e.g., http://download.eclipse.org/ee4j/bean-validation/beanvalidation-tck-dist-2.0.5.zip .
-1. Generate standalone TCK results or platform TCK result as appropriate for the spec project. 
+1. Generate standalone TCK results or platform TCK result as appropriate for the spec project.
 ** Information on running TCKs in the Jakarta CI infrastructure can be found https://wiki.eclipse.org/TCK:Build_From_Jakarta_EE_TCK_Repo_And_Run#Jenkins_Pipelines[Build_From_Jakarta_EE_TCK_Repo_And_Run].
 1. Create a compatibility certification request for the compatible implementation being used to validate the spec in the specification repository issue tracker. If the project does not already have a compatibility-certification-request template, you can use this one: https://github.com/jakartaee/specification-committee/blob/master/compatibility-certification-request.md[compatibility-certification-request.md]
 1. After that TCK is passing, submit a ballot request by creating two https://help.github.com/en/articles/about-pull-requests#draft-pull-requests[draft PRs] requests against the
@@ -111,16 +119,16 @@ provides everything requested in the https://github.com/jakartaee/specification-
 *** A subdirectory major.minor corresponding to the version of the spec, (e.g., 1.6), that contains:
 **** Specification Document from (2) above in both pdf and html formats, e.g., wombat_1.6.pdf and wombat_1.6.html
 **** Summary results of TCK run showing at least one compatible implementation
-**** Link to final TCK test bundle if the spec defines a TCK. This will be signed and uploaded to the offical
+**** Link to final TCK test bundle if the spec defines a TCK. This will be signed and uploaded to the official
 specification download area when the ballot passes.
 **** The URL of the OSSRH staging repository for the api, javadoc artifacts
 **** An apidocs directory containing the final JavaDocs from the api build in the second PR.
 1. Update the Jakarta EE API jar by submitting a PR to the https://github.com/eclipse-ee4j/jakartaee-api[jakartaee-api] project that updates the version number of your API jar file.
 1. Update Eclipse GlassFish to use the new version of your API (and implementation, if applicable) by submitting a PR to https://github.com/eclipse-ee4j/glassfish[GlassFish].
-1. For any release other than a service release, create a release record (if one doesn't already exist) as described in https://www.eclipse.org/projects/handbook/#pmi-commands-release and then:
+1. For any release other than a service release, create a release record (if one doesn't already exist) as described in the https://www.eclipse.org/projects/handbook/#pmi-commands-release[Eclipse Project Handbook] and then:
 ** Request approval for the release from the PMC by sending an email to ee4j-pmc@eclipse.org referencing the release record.
-** Deliver an IP Log to the IP Team for their review as described in https://www.eclipse.org/projects/handbook/#pmi-commands-iplog.
-** Contact the EMO to initiate the release review by sending an email to emo@eclipse.org.
+** Deliver an IP Log to the IP Team for their review as described in the https://www.eclipse.org/projects/handbook/#pmi-commands-iplog[Eclipse Project Handbook].
+** After the PRs are reviewed and approved, contact the EMO to initiate the official release review by sending an email to emo@eclipse.org.
 1. When the ballot request PRs are approved, release staged artifacts to Maven Central. Advice on this can be found https://wiki.eclipse.org/MavenReleaseScript[MavenReleaseScript].
 
 After the release review has completed successfully, the final release needs to be promoted to maven central.
@@ -132,22 +140,25 @@ Links: https://github.com/jakartaee/jakarta.ee, https://gohugo.io/documentation/
 The EMO validates:
 
 * That the review material meets a minimum standard (meaningful description);
-* That the project repository includes the required legal documentation; and
+* That the project repository includes the required legal documentation;
 * That the Eclipse Intellectual Property Due Diligence process has been followed.
 
 The PMC validates:
 
 * That the Eclipse Development Process has been followed;
 * That the project is operating in an open and transparent manner;
-* That the specification document is consistent with established conventions;and
-* That the project has no unreasonable barriers for participation.
-* That the submission material is complete
+* That the specification document is consistent with established conventions;
+* That the project has no unreasonable barriers for participation;
+* That the submission material is complete.
 
 The Specification Committee validates:
 
 * That the content presented for review is in scope;
-* That the website documentation adequately and consistently describes the specification(s); and
+* That the website documentation adequately and consistently describes the specification(s);
 * That the specification document is consistent with established conventions and meets the necessary quality standards.
+* For a Plan Review, a sufficiently detailed and doable Release Plan has been created.
+In addition, an https://www.eclipse.org/projects/handbook/#pmi-commands-release[Eclipse release record] exists that describes the content for the given release.
+This description could be a reference to an external plan document.
 * For a Progress Review, that sufficient progress has been made on a Compatible Implementation and TCK, to ensure that the spec is implementable and testable.
 * For a Release Review, that a Compatible Implementation is complete, passes the TCK, and that the TCK includes sufficient coverage of the specification.
 The TCK users guide MUST include the instructions to run the compatible implementations used to validate the release.
