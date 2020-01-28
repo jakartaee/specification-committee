@@ -178,7 +178,7 @@
 |{gitBaseURL}/jax-ws-api[Jakarta XML Web Services]
 |xml-ws
 
-|[Jakarta Web Services Metadata]
+|{gitBaseURL}/jws-api[Jakarta Web Services Metadata]
 |ws-metadata
 
 |===
