@@ -9,6 +9,7 @@ Jakarta Wombat defines server-side handling for HTTP requests and responses.
 * [Jakarta Wombat 1.0 Specification Document](./wombat-spec-1.0.pdf) (PDF)
 * [Jakarta Wombat 1.0 Specification Document](./wombat-spec-1.0.html) (HTML)
 * [Jakarta Wombat 1.0 Javadoc](./apidocs)
+* [Jakarta Wombat 1.0 XML Schema](https://jakarta.ee/xml/ns/jakartaee/wombat-1.0.xsd)
 * [Jakarta Wombat 1.0 TCK](http://downloads.eclipse.org/jakarta/wombat/1.0.0/wombat-tck-1.0.0.zip)
 * Maven coordinates
   * [jakarta.wombat:jakarta.wombat-api:jar:1.0.0](https://search.maven.org/artifact/jakarta.wombat/jakarta.wombat-api/1.0.0/jar)
