@@ -11,7 +11,7 @@
   - [ ] Staging repository link of the form https://oss.sonatype.org/conte/repositories/staging/jakarta/{spec}/jakarta-{spec}-api/x.y.z/
   - [ ] EFTL TCK link of the form http://download.eclipse.org/.../+.zip
   - [ ] Compatibility certification link of the form https://github.com/eclipse-ee4j/{project}/#{issue}
-  - [ ] Second PR for just apidocs
+  - [ ] (Optional) Second PR for just apidocs
 
 2. _index.md
   - [ ] Link to spec pdf
