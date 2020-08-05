@@ -3,8 +3,8 @@
 1. Spec PR
   - [ ] PR uses [template](https://github.com/jakartaee/specifications/blob/master/pull_request_template.md)
   - [ ] Directory of form {spec}/x.y
-  - [ ] PDF of form {spec}-spec-x.y.pdf ("-spec" preferred but not required)
-  - [ ] HTML of form {spec}-spec-x.y.html ("-spec" preferred but not required)
+  - [ ] PDF of form jakarta-{spec}-spec-x.y.pdf ("-spec" preferred but not required)
+  - [ ] HTML of form jakarta-{spec}-spec-x.y.html ("-spec" preferred but not required)
   - [ ] Index page {spec}/x.y/_index.md following [template](https://github.com/jakartaee/specification-committee/blob/master/spec_page_template.md)
   - [ ] Index page {spec}/_index.md following [template](https://github.com/jakartaee/specification-committee/blob/master/spec_index_template.md)
   - [ ] No other files (e.g., no jakarta_ee_logo_schooner_color_stacked_default.png)
@@ -14,6 +14,7 @@
   - [ ] (Optional) Second PR for just apidocs
 
 2. _index.md
+  - [ ] Link to project release plan of the form https://projects.eclipse.org/projects/ee4j.{spec}/releases/x.y/plan
   - [ ] Link to spec pdf
   - [ ] Link to spec html
   - [ ] Link to apidocs
