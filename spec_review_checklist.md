@@ -18,7 +18,7 @@
   - [ ] Link to spec pdf
   - [ ] Link to spec html
   - [ ] Link to apidocs
-  - [ ] Link to final TCK download zip file of the form https://download.eclipse.org/jakartaee/{spec}/x.y/*{spec}-tck-x.y.z.zip
+  - [ ] Link to final TCK download zip file of the form https://download.eclipse.org/jakartaee/{spec}/x.y/*{spec}-tck-x.y.z.zip (The folder path is required, the file name pattern is preferred.)
   - [ ] Link to API jar file of the form https://search.maven.org/artifact/jakarta.{spec}/jakarta.{spec}-api/x.y.z/jar
   - [ ] Name of and link to at least one Compatible Implementation
 
