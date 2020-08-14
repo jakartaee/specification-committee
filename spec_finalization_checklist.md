@@ -18,7 +18,7 @@ the [Initiate Ballot Email Template](#initiate-ballot-email-template) section at
   * A specification committee member votes by responding to the ballot message on the public Jakarta EE Specification Committee mailing list, using the usual +1/0/-1 voting notation.
 * On ballot completion
  - [ ] The designated specification committee representative adds this final checklist to the main PR.
- - [ ] The specification committee representative merges the specification and apidocs PRs.
+ - [ ] The specification committee representative merges the specification and apidocs PRs, ensuring the "date:" field in the _index.md file has an appropriate value to allow publishing.
  - [ ] The designated specification committee representative calculates the staged EFTL TCK signature and promotes it to the committee download area
   using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job.
  - [ ] The specification project member who created the staging release promotes the specification api jars to maven central. An example release job script can be found here https://wiki.eclipse.org/MavenReleaseScript.
