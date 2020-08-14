@@ -20,7 +20,7 @@ the [Initiate Ballot Email Template](#initiate-ballot-email-template) section at
 * On ballot completion
  - [ ] The specification committee mentor adds this final checklist to the main PR.
  - [ ] The specification committee member adds the `approved` label to the PRs, and sends out the Ballot Summary per this [template](#ballot-summary-email-template) to the [public Jakarta EE Specification Committee email list](jakarta.ee-spec@eclipse.org)
-  - [ ] The specification committee mentor merges the specification (and apidocs) PRs.
+  - [ ] The specification committee mentor merges the specification (and apidocs) PRs, ensuring the "date:" field in the _index.md file has an appropriate value to allow publishing.
  - [ ] The specification committee mentor calculates the staged EFTL TCK signature and promotes it to the committee download area
   using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job.
  - [ ] The specification project member who created the api staging release promotes the specification api jars to maven central. An example release job script can be found here https://wiki.eclipse.org/MavenReleaseScript.
