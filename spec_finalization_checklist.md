@@ -7,7 +7,7 @@ content for the specification.
 * When all review comments have been addressed and approved, the specification committee mentor marks the PR as `final` and ready for `ballot`.
 * If a Release Review is required, the specification project team contacts the EMO to initiate the review by sending an email to emo@eclipse.org.
 (A Release Review is not required if the current release is a Service Release based on a previously successful Major or Minor
-release as indicated by a release record on the project's Releases page, e.g., the [Jakarta Servlet releases page](https://projects.eclipse.org/projects/ee4j.servlet/reviews). A Release Review will not be required for most of the Jakarta EE projects.)
+release as indicated by a release record on the project's Releases page, e.g., the [Jakarta Servlet releases page](https://projects.eclipse.org/projects/ee4j.servlet/reviews).)
   * An issue will be created by the EMO to track the release review.
   * The specification project team requests approval for the release from the PMC by sending an email to ee4j-pmc@eclipse.org.
   * The specification project team then delivers an IP Log to the IP Team for their review as described in https://www.eclipse.org/projects/handbook/#pmi-commands-iplog.
