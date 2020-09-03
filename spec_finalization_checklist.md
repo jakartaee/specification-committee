@@ -17,19 +17,22 @@ the [Initiate Ballot Email Template](#initiate-ballot-email-template) section at
   * Each specification committee member votes by responding to the ballot message on the public Jakarta EE Specification Committee mailing list, using the usual +1/0/-1 voting notation.
   * The specification committee mentor should monitor the vote and poke the specification committee members if the votes are lagging.
   * (Optional) The specification committee mentor executing the vote may wish to keep tally of the votes in a [spreadsheet such as this](https://docs.google.com/spreadsheets/d/17kIjFbBOuGOv-rQvA3U_MUsNfXAyd8uzPn6h4752tok/edit) -- each component specification has a separate sheet/tab along the bottom.
-* On ballot completion
- - [ ] The specification committee mentor adds this final checklist to the main PR.
- - [ ] The specification committee member adds the `approved` label to the PRs, and sends out the Ballot Summary per this [template](#ballot-summary-email-template) to the [public Jakarta EE Specification Committee email list](jakarta.ee-spec@eclipse.org)
-  - [ ] The specification committee mentor merges the specification (and apidocs) PRs, ensuring the "date:" field in the _index.md file has an appropriate value to allow publishing.
- - [ ] The specification committee mentor calculates the staged EFTL TCK signature and promotes it to the committee download area
+* On ballot completion, the specification committee mentor:
+ - [ ] adds this final checklist to the main PR.
+ - [ ] adds the `approved` label to the PRs, and sends out the Ballot Summary per this [template](#ballot-summary-email-template) to the [public Jakarta EE Specification Committee email list](jakarta.ee-spec@eclipse.org)
+ - [ ] calculates the staged EFTL TCK signature and promotes it to the committee download area
   using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job.
- - [ ] The specification project member who created the api staging release promotes the specification api jars to maven central. An example release job script can be found here https://wiki.eclipse.org/MavenReleaseScript.
- - [ ] The specification committee mentor updates the specification page with the ballot results.
-This list goes on the committed spec index page.
- - [ ] The specification project team should go through the merged spec website page to verify all the links are valid.
- - [ ] The specification project team should approve the compatibility request.
+ - [ ] updates the specification page with the ballot results.
+ - [ ] merges the specification (and apidocs) PRs, ensuring the "date:" field in the _index.md file has an appropriate value to allow publishing.
+ - [ ] creates an issue in the specification project that includes the following checklist for the specification project team:
+
+<!-- Add this list to the specification project issue -->
+ ----
+ - [ ] promotes api staging release promotes the specification api jars to maven central. An example release job script can be found here https://wiki.eclipse.org/MavenReleaseScript.
+ - [ ] go through the merged jakarta.ee specification website page to verify all the links are valid.
+ - [ ] approve the compatibility request.
  - [ ] The compatible implementation project/vendor MUST send an email to tck@eclipse.org for approval of the compatible implementation for trademark usage.
- - [ ] The specification project team should merge any final release branch as appropriate for the branch management for the project.
+ - [ ] merge any final release branch as appropriate for the branch management for the project.
 
 ## Initiate Ballot Email Template
 
