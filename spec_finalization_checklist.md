@@ -24,6 +24,7 @@ the [Initiate Ballot Email Template](#initiate-ballot-email-template) section at
   using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job.
  - [ ] updates the specification page with the ballot results.
  - [ ] merges the specification (and apidocs) PRs, ensuring the "date:" field in the _index.md file has an appropriate value to allow publishing.
+ - [ ] notifies the EMO of the ballot results by email to [emo@eclipse-foundation.org](emo@eclipse-foundation.org)
  - [ ] creates an issue in the specification project that includes the following checklist for the specification project team:
 
 <!-- Add this list to the specification project issue -->
