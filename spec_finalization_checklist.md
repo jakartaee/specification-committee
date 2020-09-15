@@ -21,13 +21,14 @@ the [Initiate Ballot Email Template](#initiate-ballot-email-template) section at
  - [ ] adds this final checklist to the main PR.
  - [ ] adds the `approved` label to the PRs, and sends out the Ballot Summary per this [template](#ballot-summary-email-template) to the [public Jakarta EE Specification Committee email list](jakarta.ee-spec@eclipse.org)
  - [ ] calculates the staged EFTL TCK signature and promotes it to the committee download area
-  using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job.
- - [ ] updates the specification page with the ballot results.
+  using the https://ci.eclipse.org/jakartaee-spec-committee/job/promote-release/ job. Manually editing the jenkins Build Information will help identify the build (ie. Mail 2.0 or CDI 3.0).
  - [ ] merges the specification (and apidocs) PRs, ensuring the "date:" field in the _index.md file has an appropriate value to allow publishing.
- - [ ] notifies the EMO of the ballot results by email to [emo@eclipse-foundation.org](emo@eclipse-foundation.org)
+ - [ ] updates the specification page with the ballot results. This is normally done via a separate PR that should be reviewed, approved, and merged.
+ - [ ] notifies the EMO of the ballot results by email to [emo@eclipse-foundation.org](emo@eclipse-foundation.org). Just forward the ballot summary note sent earlier to the public Spec Committee email list.
  - [ ] creates an issue in the specification project that includes the following checklist for the specification project team:
+ \<include url of Issue here>
 
-<!-- Add this list to the specification project issue -->
+<!-- Add this list to the specification project issue.  Delete this section of checklist from Spec PR once this specification project issue is created and logged. -->
  ----
  - [ ] promotes api staging release promotes the specification api jars to maven central. An example release job script can be found here https://wiki.eclipse.org/MavenReleaseScript.
  - [ ] go through the merged jakarta.ee specification website page to verify all the links are valid.
