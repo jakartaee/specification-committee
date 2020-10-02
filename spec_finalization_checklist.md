@@ -5,12 +5,6 @@ These PRs are intended to provide the items that are required to validate the re
 content for the specification.
 * The specification committee assigns a mentor to the specification PRs to aid with the reviewing and preparation of the specification contents.  Here is an [example mentoring assignment sheet and instructions](https://docs.google.com/document/d/1KaSQBfiyJc2whfQdeuQ1Y7mXnnUnnCuiE-nAqUq5Foo/edit).
 * When all review comments have been addressed and approved, the specification committee mentor marks the PR as `final` and ready for `ballot`.
-* If a Release Review is required, the specification project team contacts the EMO to initiate the review by sending an email to emo@eclipse.org.
-(A Release Review is not required if the current release is a Service Release based on a previously successful Major or Minor
-release as indicated by a release record on the project's Releases page, e.g., the [Jakarta Servlet releases page](https://projects.eclipse.org/projects/ee4j.servlet/reviews).)
-  * An issue will be created by the EMO to track the release review.
-  * The specification project team requests approval for the release from the PMC by sending an email to ee4j-pmc@eclipse.org.
-  * The specification project team then delivers an IP Log to the IP Team for their review as described in https://www.eclipse.org/projects/handbook/#pmi-commands-iplog.
 * The specification committee mentor initiates a specification committee ballot by sending an email on the [public Jakarta EE Specification Committee mailing list](jakarta.ee-spec@eclipse.org) that describes the nature of the vote (creation/progress/release) and includes
 pointers to the PR containing the proposed release content (e.g. release review document, specification document, and technical artifacts). See
 the [Initiate Ballot Email Template](#initiate-ballot-email-template) section at the end for the template to use.
