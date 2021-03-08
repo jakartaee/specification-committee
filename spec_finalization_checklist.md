@@ -26,6 +26,7 @@ the [Initiate Ballot Email Template](#initiate-ballot-email-template) section at
  ----
  - [ ] promotes api staging release promotes the specification api jars to maven central. An example release job script can be found here https://wiki.eclipse.org/MavenReleaseScript.
  - [ ] go through the merged jakarta.ee specification website page to verify all the links are valid.
+ - [ ] if XML Schemas are published on https://jakarta.ee/schemas, send a PR to update the status from `Draft` to `Final`.
  - [ ] approve the compatibility request.
  - [ ] The compatible implementation project/vendor MUST send an email to tck@eclipse.org for approval of the compatible implementation for trademark usage.
  - [ ] merge any final release branch as appropriate for the branch management for the project.
