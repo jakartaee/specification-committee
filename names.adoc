@@ -153,8 +153,8 @@ a. Some usable variation of the Project Id or Code columns in <<naming_table>>, 
 |N/A
 
 .2+|{projectBaseURL}/ee4j.jsp[ee4j.jsp]
-.2+|Jakarta Server Pagers
-|{gitBaseURL}/jsp-api[Jakarta Server Pagers]
+.2+|Jakarta Server Pages
+|{gitBaseURL}/jsp-api[Jakarta Server Pages]
 |pages
 |servlet.jsp
 
