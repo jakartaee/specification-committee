@@ -230,7 +230,7 @@ a. Some usable variation of the Project Id or Code columns in <<naming_table>>, 
 
 |{gitBaseURL}/jws-api[Jakarta Web Services Metadata]
 |ws-metadata
-|N/A
+|jws footnote:[EE9], xml.ws footnote:[EE10, merged into xml-ws artifact]
 
 |===
 
