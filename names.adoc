@@ -12,7 +12,7 @@ a. Some usable variation of the Project Id or Code columns in <<naming_table>>, 
 [#naming_table]
 .Table of Jakarta Project Names & Codes
 |===
-|Project Id | Project Name | Specification | Code | Module Name.footnote:[Full name starts with 'jakarta.']
+|Project Id | Project Name | Specification | Code | Module Name footnote:[Full name starts with 'jakarta.']
 
 |{projectBaseURL}/ee4j.jaf[ee4j.jaf]
 |Jakarta Activation
