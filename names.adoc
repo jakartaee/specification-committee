@@ -2,183 +2,235 @@
 :projectBaseURL: https://projects.eclipse.org/projects
 :gitBaseURL: https://github.com/eclipse-ee4j
 
+== JPMS
+The policy for establishing the JPMS Module Name column in the <<naming_table>> is as follows:
+
+a. There is an existing module-info, e.g., jakarta.activation for Jakarta Activation
+a. There is a root package name that makes sense, e.g., jakarta.inject -> inject for Jakarta Dependency Injection
+a. Some usable variation of the Project Id or Code columns in <<naming_table>>, e.g., cdi for Jakarta Contexts and Dependency Injection
+
+[#naming_table]
+.Table of Jakarta Project Names & Codes
 |===
-|Project Id | Project Name | Specification | Code
+|Project Id | Project Name | Specification | Code | Module Name.footnote:[Full name starts with 'jakarta.']
 
 |{projectBaseURL}/ee4j.jaf[ee4j.jaf]
 |Jakarta Activation
 |{gitBaseURL}/jaf[Jakarta Activation]
+|activation
 |activation
 
 |{projectBaseURL}/ca[ee4j.ca]
 |Jakarta Annotations
 |{gitBaseURL}/common-annotations-api[Jakarta Annotations]
 |annotations
+|annotations
 
 |{projectBaseURL}/ee4j.jaspic[ee4j.jaspic]
 |Jakarta Authentication
 |{gitBaseURL}/jaspic[Jakarta Authentication]
 |authentication
+|security.auth.message
 
 |{projectBaseURL}/ee4j.jacc[ee4j.jacc]
 |Jakarta Authorization
 |{gitBaseURL}/jacc[Jakarta Authorization]
 |authorization
+|security.jacc
 
 |{projectBaseURL}/ee4j.batch[ee4j.batch]
 |Jakarta Batch
 |{gitBaseURL}/batch-api[Jakarta Batch]
+|batch
 |batch
 
 |{projectBaseURL}/ee4j.jbv[ee4j.jbv]
 |Jakarta Bean Validation
 |{gitBaseURL}/beanvalidation-api[Jakarta Bean Validation]
 |bean-validation
+|validation
 
 .2+|{projectBaseURL}/ee4j.cdi[ee4j.cdi]
 .2+|Jakarta Contexts and Dependency Injection
 |{gitBaseURL}/cdi[Jakarta Contexts and Dependency Injection]
 |cdi
+|cdi
 
 |{gitBaseURL}/injection-api[Jakarta Dependency Injection]
 |dependency-injection
+|inject
 
 |{projectBaseURL}/ee4j.cu[ee4j.cu]
 |Jakarta Concurrency
 |{gitBaseURL}/concurrency-api[Jakarta Concurrency]
+|concurrency
 |concurrency
 
 |{projectBaseURL}/ee4j.jca[ee4j.jca]
 |Jakarta Connectors
 |{gitBaseURL}/jca-api[Jakarta Connectors]
 |connectors
+|connectors
 
 |{projectBaseURL}/ee4j.ejb[ee4j.ejb]
 |Jakarta Enterprise Beans
 |{gitBaseURL}/ejb-api[Jakarta Enterprise Beans]
 |enterprise-beans
+|ejb
 
 |{projectBaseURL}/ee4j.el[ee4j.el]
 |Jakarta Expression Language
 |{gitBaseURL}/el-ri[Jakarta Expression Language]
 |expression-language
+|el
 
 |{projectBaseURL}/ee4j.interceptors[ee4j.interceptors]
 |Jakarta Interceptors
 |{gitBaseURL}/interceptor-api[Jakarta Interceptors]
 |interceptors
+|interceptor
 
 |{projectBaseURL}/ee4j.jsonb[ee4j.jsonb]
 |Jakarta JSON Binding
 |{gitBaseURL}/jsonb-api[Jakarta JSON Binding]
 |jsonb
+|json.bind
 
 |{projectBaseURL}/ee4j.jsonp[ee4j.jsonp]
 |Jakarta JSON Processing
 |{gitBaseURL}/jsonp[Jakarta JSON Processing]
 |jsonp
+|json
 
 |{projectBaseURL}/ee4j.javamail[ee4j.javamail]
 |Jakarta Mail
 |{gitBaseURL}/javamail[Jakarta Mail]
+|mail
 |mail
 
 |{projectBaseURL}/ee4j.jms[ee4j.jms]
 |Jakarta Messaging
 |{gitBaseURL}/jms-api[Jakarta Messaging]
 |messaging
+|messaging
 
 |{projectBaseURL}/ee4j.jpa[ee4j.jpa]
 |Jakarta Persistence
 |{gitBaseURL}/jpa-api[Jakarta Persistence]
+|persistence
 |persistence
 
 .3+|{projectBaseURL}/ee4j.jakartaee-platform[ee4j.jakartaee-platform]
 .3+|Jakarta EE Platform
 |{gitBaseURL}/jakartaee-platform[Jakarta Managed Beans]
 |managed-beans
+|N/A
 
 |{gitBaseURL}/jakartaee-platform[Jakarta EE Full Profile]
 |full-profile
+| N/A
 
 |{gitBaseURL}/jakartaee-platform[Jakarta EE Web Profile]
 |web-profile
+| N/A
 
 |{projectBaseURL}/ee4j.jaxrs[ee4j.jaxrs]
 |Jakarta RESTful Web Services
 |{gitBaseURL}/jaxrs-api[Jakarta RESTful Web Services]
 |restful-ws
+|ws.rs
 
 |{projectBaseURL}/ee4j.es[ee4j.es]
 |Jakarta Security
 |{gitBaseURL}/security-api[Jakarta Security]
+|security
 |security
 
 |{projectBaseURL}/ee4j.faces[ee4j.faces]
 |Jakarta Server Faces
 |{gitBaseURL}/mojarra[Jakarta Server Faces]
 |faces
+|N/A
 
 .2+|{projectBaseURL}/ee4j.jsp[ee4j.jsp]
-.2+|Jakarta Server Pagers
-|{gitBaseURL}/jsp-api[Jakarta Server Pagers]
+.2+|Jakarta Server Pages
+|{gitBaseURL}/jsp-api[Jakarta Server Pages]
 |pages
+|servlet.jsp
 
 |[Jakarta Debugging Support for Other Languages]
 |debugging
+| N/A
 
 |{projectBaseURL}/ee4j.servlet[ee4j.servlet]
 |Jakarta Servlet
 |{gitBaseURL}/servlet-api[Jakarta Servlet]
 |servlet
-
+|servlet
 
 .5+|{projectBaseURL}/ee4j.jakartaee-stable[ee4j.jakartaee-stable]
 .5+|Jakarta Stable APIs
 |{gitBaseURL}/enterprise-deployment[Jakarta Deployment]
 |deployment
+|N/A
 
 |{gitBaseURL}/jws-api[Jakarta Enterprise Web Services]
 |enterprise-ws
+|N/A
 
 |{gitBaseURL}/management-api[Jakarta Management]
 |management
+|N/A
 
 |{gitBaseURL}/jaxr-api[Jakarta XML Registries]
 |xml-registries
+|N/A
 
 |{gitBaseURL}/jax-rpc-api[Jakarta XML RPC]
 |xml-rpc
+|N/A
 
 |{projectBaseURL}/ee4j.jstl[ee4j.jstl]
 |Jakarta Standard Tag Library
 |{gitBaseURL}/jstl-api[Jakarta Standard Tag Library]
 |tags
+|servlet.jsp.jstl
 
 |{projectBaseURL}/ee4j.jta[ee4j.jta]
 |Jakarta Transactions
 |{gitBaseURL}/jta-api[Jakarta Transactions]
 |transactions
+|transaction
 
-|{projectBaseURL}/ee4j.websocket[ee4j.websocket]
-|Jakarta WebSocket
+.2+|{projectBaseURL}/ee4j.websocket[ee4j.websocket]
+.2+|Jakarta WebSocket
 |{gitBaseURL}/websocket-api[Jakarta WebSocket]
 |websocket
+|websocket
+
+|{gitBaseURL}/websocket-api[Jakarta WebSocket]
+|websocket-client
+|websocket.client
 
 |{projectBaseURL}/ee4j.jaxb[ee4j.jaxb]
 |Jakarta XML Binding
 |{gitBaseURL}/jaxb-api[Jakarta XML Binding]
 |xml-binding
+|xml.bind
 
 .3+|{projectBaseURL}/ee4j.jaxws[ee4j.jaxws]
 .3+|Jakarta XML Web Services
 |{gitBaseURL}/saaj-api[Jakarta SOAP Attachments]
 |soap
+|xml.soap
 
 |{gitBaseURL}/jax-ws-api[Jakarta XML Web Services]
 |xml-ws
+|xml.ws
 
 |{gitBaseURL}/jws-api[Jakarta Web Services Metadata]
 |ws-metadata
+|jws footnote:[EE9], xml.ws footnote:[EE10, merged into xml-ws artifact]
 
 |===
+
