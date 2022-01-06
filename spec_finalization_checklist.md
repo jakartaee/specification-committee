@@ -49,7 +49,7 @@ The relevant materials are available here:
  
 Per the process, this will be a fourteen day ballot, ending on [DATE] that requires a Super-majority positive vote of the Specification Committee members (note that there is no veto). Community input is welcome, but only votes cast by Specification Committee Representatives will be counted.
  
-The Specification Committee is composed of representatives of the Jakarta EE Working Group Member Companies (Fujitsu, IBM, Oracle, Payara, Red Hat, Tomitribe, and Primeton), along with individuals who represent the EE4J PMC, Participant Members, and Committer Members.
+The Specification Committee is composed of representatives of the Jakarta EE Working Group Member Companies (Fujitsu, IBM, Oracle, Payara, Tomitribe, Primeton, and Shandong Cvicse Middleware Co.), along with individuals who represent the EE4J PMC, Participant Members, and Committer Members.
  
 Specification Committee representatives, your vote is hereby requested. Please respond with +1 (positive), 0 (abstain), or -1 (reject).  Any feedback that you can provide to support your vote will be appreciated.
 
