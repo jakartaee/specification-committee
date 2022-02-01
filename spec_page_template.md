@@ -15,6 +15,8 @@ Jakarta Wombat defines server-side handling for HTTP requests and responses.
 * [Jakarta Wombat 1.0 TCK](http://downloads.eclipse.org/jakarta/wombat/1.0.0/wombat-tck-1.0.0.zip)
 * Maven coordinates
   * [jakarta.wombat:jakarta.wombat-api:jar:1.0.0](https://search.maven.org/artifact/jakarta.wombat/jakarta.wombat-api/1.0.0/jar)
+* Compatible Implementations used for [ratification](https://www.eclipse.org/projects/efsp/?version=1.2#efsp-ratification).
+  * [Eclipse Vombatidae 9.1.1](https://github.com/eclipse-ee4j/vombatidae)
 
 # Compatible Implementations
 
