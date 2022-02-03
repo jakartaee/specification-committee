@@ -102,9 +102,9 @@ a. Some usable variation of the Project Id or Code columns in <<naming_table>>, 
 |jsonp
 |json
 
-|{projectBaseURL}/ee4j.javamail[ee4j.javamail]
+|{projectBaseURL}/ee4j.mail[ee4j.mail]
 |Jakarta Mail
-|{gitBaseURL}/javamail[Jakarta Mail]
+|{gitBaseURL}/mail[Jakarta Mail]
 |mail
 |mail
 
@@ -158,7 +158,7 @@ a. Some usable variation of the Project Id or Code columns in <<naming_table>>, 
 |pages
 |servlet.jsp
 
-|[Jakarta Debugging Support for Other Languages]
+|{gitBaseURL}/jsp-api[Jakarta Debugging Support for Other Languages]
 |debugging
 | N/A
 
