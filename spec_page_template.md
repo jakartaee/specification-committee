@@ -6,7 +6,7 @@ date: YYYY-MM-DD
 summary: "Change to the Jakarta Wombat spec for feature X."
 ---
 
-<!-- Please describe the high-level changes made to Jakarta Foo 1.3. --> 
+<!-- Please describe the high-level changes made to Jakarta Wombat 1.0. --> 
 <!-- The intent is for the first two sections to be an executive summary in the range of 300 to 800 characters. -->
 <!-- Links can accompany the executive summary, but cannot substitute for an executive summary. -->
 
