@@ -5,7 +5,21 @@ title: "Jakarta Wombat Spec 1.0"
 date: YYYY-MM-DD
 summary: "Change to the Jakarta Wombat spec for feature X."
 ---
-Jakarta Wombat defines server-side handling for HTTP requests and responses.
+
+<!-- Please describe the high-level changes made to Jakarta Foo 1.3. --> 
+<!-- The intent is for the first two sections to be an executive summary in the range of 300 to 800 characters. -->
+<!-- Links can accompany the executive summary, but cannot substitute for an executive summary. -->
+
+### New features, enhancements or additions
+<!-- List here -->
+
+### Removals, deprecations or backwards incompatible changes
+<!-- List here -->
+
+### Minimum Java SE Version
+<!-- Specify the minimum required Java SE version for this specification -->
+
+# Details
 
 * [Jakarta Wombat 1.0 Release Record](https://projects.eclipse.org/projects/ee4j.wombat/releases/1.0)
 * [Jakarta Wombat 1.0 Specification Document](./jakarta-wombat-spec-1.0.pdf) (PDF)
