@@ -12,12 +12,15 @@ summary: "Change to the Jakarta Wombat spec for feature X."
 
 ### New features, enhancements or additions
 <!-- List here -->
+* 
 
 ### Removals, deprecations or backwards incompatible changes
 <!-- List here -->
+* 
 
 ### Minimum Java SE Version
 <!-- Specify the minimum required Java SE version for this specification -->
+**<!--VERSION NUMBER-->**
 
 # Details
 
