@@ -2,6 +2,7 @@
 
 From time to time the Specification Committee may request that specification project committer teams submit material for a Progress Review ballot. 
 This checklist is for the Mentor to help the committer team gather and organize that material. 
+The JESP requires all specification projects submit a progress review every twelve (12) months.
 Once the material is collected and ready (either in a PR, or the mentor simply receives confirmation that the original plan is still valid) 
 the mentor will start a Progress Review ballot. 
 This check-list assumes that the previous ballots necessary to get to this state have been successful and material from those events is available. 
@@ -74,7 +75,7 @@ Sample Progress Review Ballot e-mail Notification
 
     [LINKS TO GITHUB PULL REQUESTS or other summary documentation]
 
-    Per the process, this will be a seven day ballot, ending on [DATE]
+    Per the process, this will be a fourteen (14) day ballot, ending on [DATE]
     that requires a Super-majority positive vote of the Specification
     Committee members (note that there is no veto). 
     Community input is welcome, but only votes cast by Specification Committee Representatives will be counted.
