@@ -2,7 +2,7 @@
 
 After a Specification Committer team notifies the Spec. committee that it intends to begin work on a new specification version a Mentor from the Spec. committee will work with the committer team to create a PR to the Jakarta EE Specification repository that will describe the new release, it's scope, and the plan for development. The checklist here is designed to aid the Specification Committee Mentor as they work with the Committer team to gather and complete the necessary material to hold a successful Plan Review ballot.
 
-Have a committer representative open a new Spec. repository PR for the specification version and paste the following check-list into the PR conversation (comments).
+Have a committer representative open a new Spec. repository PR for the specification version and paste the following checklist into the PR conversation (comments).
 
 ----
 1. Spec PR for Plan / Proposal
