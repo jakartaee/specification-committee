@@ -11,7 +11,7 @@ The mentor is not responsible for gathering this material and is not responsible
 If the Specification committee has requested specific information, the mentor should be sure to convey this request to the committer team. 
 The mentor should review the materials provided for the Progress Review to ensure that the questions raised for the progress review have been addressed. 
 If the progress review is purely procedural (i.e. it's been twelve months or more since the last ballot) then all that is needed is to confirm that 
-the plan as previously agreed, is still valid and that check-point artifacts (Milestone builds, TCK updates, ect) previously agreed to have been produced.
+the plan as previously agreed, is still valid and that checkpoint artifacts (Milestone builds, TCK updates, etc.) previously agreed to have been produced.
 
 A pre-ballot PR may not be required if there are no changes to the plan or scope, from the previously approved plan review/proposal. 
 If a pre-ballot PR is needed (for example if the plan or scope needs to be updated), that material will be included in the 
