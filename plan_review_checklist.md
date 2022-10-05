@@ -55,7 +55,7 @@ The mentor should remind the specification committer team of the various process
     * Community outreach and involvement through Marketing committee venues and [jakarta.ee](https://jakarta.ee)
         * [What's New, News](https://jakarta.ee/news/)
         * [Community Announcements](https://jakarta.ee/news/?news-type=community_news)
-        * [Community Events ](https://jakarta.ee/community/events/)
+        * [Community Events](https://jakarta.ee/community/events/)
     * Resource allocation assistance (e.g. additional CI/CD resources anticipated, etc.) from Steering committee
     * General process help from the Specification Committee, etc.)
     * General technical guidance, advice, feedback, review from the Platform Committer team, etc. 
