@@ -29,7 +29,7 @@ Progress Review ballot notice and likely a PR will have to be generated to refle
     - [ ] If checkpoint or scope material is derived from issues or epic issues, the mentor may wish to request the committer team provide a summary statement of the specific progress against the issue or issues. 
     - [ ] The committer team should provide an overall assessment that confirms they are "on track" or produces a plan revision that reflects the evolution since the last ballot. 
   - [ ] The mentor should focus material for this review on progress of this specification revision and not the progress or changes associated with higher level projects (i.e. it is probably insufficient to say "schedule changed in Platform Release Plan so we're changing too"). Scope changes that have been imposed on this specification may certainly be noted and may be a source for plan revisions.
-  - [ ] Any changes or additional requirements, resource needs (e.g. CI/CD resources), feature changes, etc., should be reflected in the specification plan revision. If there are no changes the committer team should be able to demonstrate that they are progressing within the original plan that is already approved.
+  - [ ] Any changes or additional requirements, resource needs (e.g. CI/CD resources), feature changes, etc. should be reflected in the specification plan revision. If there are no changes the committer team should be able to demonstrate that they are progressing within the original plan that is already approved.
 
 3. Proposed Spec PDF (Optional)
   - [ ] Correct spec title, clearly marked preliminary
