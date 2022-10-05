@@ -23,7 +23,7 @@ Have a committer representative open a new Spec. repository PR for the specifica
         * If many issues are involved consider using an epic (issue of issues) and only provide high-level summary. 
     * If the version update includes material that is outside the original scope, (i.e. if a feature were to be refactored to another specification or if some major additional functionality is proposed), this should be highlighted.
   - [ ] High-level Plan -- If intended to align with a more broad release (i.e. Jakarta EE major release) reference that plan (or plan body). Indicate the milestones intended for *this* specification update (any planned checkpoints: feature complete, code complete, TCK complete, target ballot date). 
-  - [ ] How to communicate with the Specification committer team (team list, Issue tracker, etc.)
+  - [ ] How to communicate with the Specification committer team (team list, issue tracker, etc.)
   - [ ] Any additional requirements or details that would be necessary to complete this specification (dependencies, resource requirements, etc.)
 
 3. Proposed Spec PDF (Optional)
