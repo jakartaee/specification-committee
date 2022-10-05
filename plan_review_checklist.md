@@ -45,7 +45,7 @@ Have a committer representative open a new Spec. repository PR for the specifica
 ----
 
 ## Support and Guidance Resources (Informative)
-The mentor should remind the specification committer team of the various process requirements and also the support that is available from the various committees. This can be done via e-mail or a face to face meeting as appropriate.
+The mentor should remind the specification committer team of the various process requirements and also the support that is available from the various committees. This can be done via e-mail or a face-to-face meeting as appropriate.
   - [ ] Pointers to various written resources (such as [Specification Process Guide](https://jakarta.ee/committees/specification/guide/), [TCK Process Guide](https://jakarta.ee/committees/specification/tckprocess/), Eclipse Developement Process, etc.)
   - [ ] Remind the team that the EFSP requires at least one checkpoint update every twelve months. 
   - [ ] Progress Reviews may be required as requested by the Specification committee. 
