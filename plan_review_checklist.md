@@ -6,7 +6,7 @@ Have a committer representative open a new Spec. repository PR for the specifica
 
 ----
 1. Spec PR for Plan / Proposal
-  - [ ] PR uses [template](https://github.com/jakartaee/specifications/blob/master/pull_request_template.md)
+  - [ ] PR uses [template](https://github.com/jakartaee/specifications/blob/master/plan_review_pr_template.md)
   - [ ] Directory of form {spec}/x.y
   - [ ] (Optional) PDF of form jakarta-{spec}-spec-x.y.pdf ("-spec" preferred but not required)
   - [ ] (Optional) HTML of form jakarta-{spec}-spec-x.y.html ("-spec" preferred but not required)
