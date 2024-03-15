@@ -39,7 +39,7 @@ Subject: BALLOT: Approval to release [SPECIFICATION NAME] [VERSION]
  
 Greetings Jakarta EE Specification Committee.
  
-I need your vote to approve and ratify the release of [SPECIFICATION NAME] [VERSION] as part of the Jakarta EE Platform 9 release. 
+I need your vote to approve and ratify the release of [SPECIFICATION NAME] [VERSION] as part of the Jakarta EE Platform 11 release. 
  
 The JESP/EFSP requires a successful ballot of the Specification Committee in order to ratify the products of this release as a Final Specification (as that term is defined in the EFSP). 
  
