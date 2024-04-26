@@ -28,7 +28,6 @@ the [Initiate Ballot Email Template](#initiate-ballot-email-template) section at
  - [ ] go through the merged jakarta.ee specification website page to verify all the links are valid.
  - [ ] if XML Schemas are published on https://jakarta.ee/schemas, send a PR to update the status from `Draft` to `Final`.
  - [ ] approve the compatibility request.
- - [ ] The compatible implementation project/vendor MUST send an email to tck@eclipse.org for approval of the compatible implementation for trademark usage.
  - [ ] merge any final release branch as appropriate for the branch management for the project.
 
 ## Initiate Ballot Email Template
