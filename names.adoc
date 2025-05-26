@@ -1,4 +1,4 @@
-= Jakarta EE Project Names and Codes
+= Jakarta EE Project Names and Codes@saihong9009@gmail.com
 :projectBaseURL: https://projects.eclipse.org/projects
 :gitBaseURL: https://github.com/eclipse-ee4j
 
